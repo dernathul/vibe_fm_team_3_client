@@ -13,7 +13,7 @@ class UserCanSearchSong extends Component {
         }
       });
       this.setState({
-        tracks: response.data.tracks
+        artist: response.data.tracks
       });
     } catch (error) {
       this.setState({
